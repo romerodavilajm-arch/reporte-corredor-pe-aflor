@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-99.1362, 19.4248],
+            [-99.1328, 19.4248],
+            [-99.1328, 19.4275],
+            [-99.1362, 19.4275],
+            [-99.1362, 19.4248]
+          ]
+        ]
+      },
+      "properties": {
+        "nombre": "Tianguis La Paloma",
+        "tipo": "tianguis",
+        "organizacion": "FONART",
+        "descripcion": "Tianguis dominical especializado en artesanías y productos de origen indígena. Cuenta con la certificación de FONART para garantizar la autenticidad y calidad de los productos artesanales.",
+        "horario": "Domingos, 7:00 – 15:00 hrs",
+        "contacto": "FONART Zona Sur: 55 5555-0011",
+        "problematicas": [
+          "Espacio insuficiente para la demanda de comerciantes",
+          "Competencia desleal con imitaciones industriales",
+          "Dificultad de acceso para personas con discapacidad"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-99.1314, 19.4343],
+            [-99.1284, 19.4343],
+            [-99.1284, 19.4367],
+            [-99.1314, 19.4367],
+            [-99.1314, 19.4343]
+          ]
+        ]
+      },
+      "properties": {
+        "nombre": "Tianguis El Progreso",
+        "tipo": "tianguis",
+        "organizacion": "Comerciantes Independientes",
+        "descripcion": "Tianguis de tres días a la semana con variedad de giros: alimentos preparados, abarrotes, ropa de segunda mano y herramienta. Es uno de los más concurridos de la zona.",
+        "horario": "Martes, jueves y sábado, 6:00 – 14:00 hrs",
+        "contacto": "Delegado de zona: 55 4444-2233",
+        "problematicas": [
+          "Invasión de carriles vehiculares los días de tianguis",
+          "Manejo inadecuado de residuos orgánicos",
+          "Ausencia de control sanitario en puestos de alimentos",
+          "Falta de estacionamiento para compradores"
+        ]
+      }
+    }
+  ]
+}

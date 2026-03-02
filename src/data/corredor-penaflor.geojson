@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-99.1338, 19.4278],
+            [-99.1322, 19.4278],
+            [-99.1322, 19.4328],
+            [-99.1338, 19.4328],
+            [-99.1338, 19.4278]
+          ]
+        ]
+      },
+      "properties": {
+        "nombre": "Corredor Comercial Peñaflor",
+        "tipo": "corredor-principal",
+        "organizacion": "Unión de Comerciantes Peñaflor",
+        "descripcion": "Corredor comercial principal que se extiende a lo largo de la Av. Peñaflor, con presencia de más de 300 comerciantes en la vía pública. Es el eje articulador del comercio informal en la zona.",
+        "horario": "Lunes a domingo, 7:00 – 20:00 hrs",
+        "contacto": "Dir. Comercio, Alcaldía: 55 1234-5678",
+        "problematicas": [
+          "Bloqueo de vialidades y acceso a predios",
+          "Falta de sanitarios y servicios básicos para comerciantes",
+          "Conflictos entre comerciantes por invasión de espacios",
+          "Acumulación de basura al cierre del día",
+          "Ausencia de señalética y delimitación de áreas"
+        ]
+      }
+    }
+  ]
+}

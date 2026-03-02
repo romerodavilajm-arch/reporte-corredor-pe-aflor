@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-99.1355, 19.4345],
+            [-99.1295, 19.4345],
+            [-99.1295, 19.4372],
+            [-99.1355, 19.4372],
+            [-99.1355, 19.4345]
+          ]
+        ]
+      },
+      "properties": {
+        "nombre": "Corredor Norte – Av. Las Flores",
+        "tipo": "corredor",
+        "organizacion": "CANACO",
+        "descripcion": "Corredor comercial ubicado sobre Av. Las Flores, predominantemente dedicado a la venta de ropa y calzado. Integrado principalmente por comerciantes afiliados a CANACO.",
+        "horario": "Martes a domingo, 8:00 – 18:00 hrs",
+        "contacto": "CANACO Delegación Sur: 55 9876-5432",
+        "problematicas": [
+          "Problemas de estacionamiento en doble fila",
+          "Deficiente alumbrado público nocturno",
+          "Falta de orden en la distribución de los puestos"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-99.1298, 19.4288],
+            [-99.1272, 19.4288],
+            [-99.1272, 19.4333],
+            [-99.1298, 19.4333],
+            [-99.1298, 19.4288]
+          ]
+        ]
+      },
+      "properties": {
+        "nombre": "Corredor Oriente – Calle Venustiano Carranza",
+        "tipo": "corredor",
+        "organizacion": "Comerciantes Independientes",
+        "descripcion": "Corredor sobre Calle Venustiano Carranza con alta concentración de comerciantes independientes que venden artículos de temporada, bisutería y accesorios.",
+        "horario": "Lunes a sábado, 9:00 – 19:00 hrs",
+        "contacto": "No disponible",
+        "problematicas": [
+          "Comerciantes sin registro ni permiso formal",
+          "Carencia de seguridad pública en la zona",
+          "Conflictos frecuentes con vecinos del área"
+        ]
+      }
+    }
+  ]
+}
