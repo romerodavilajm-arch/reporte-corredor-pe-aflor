@@ -8,6 +8,24 @@ import tianguisCercanos      from '../../data/tianguis-cercanos.geojson'
 import puestosViaPublica     from '../../data/puestos-via-publica.geojson'
 import propuestaReubicacion  from '../../data/propuesta-reubicacion.geojson'
 
+// ─────────────────────────────────────────────────────────────
+// VISTA DEL MAPA
+// true  → satélite (Esri World Imagery)
+// false → calles   (OpenStreetMap)
+const VISTA_SATELITE = false
+// ─────────────────────────────────────────────────────────────
+
+const CAPAS_MAPA = {
+  satelite: {
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
+  },
+  calles: {
+    url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  },
+}
+
 // Colores base por tipo de polígono
 const COLORES_TIPO = {
   'corredor-principal':    { stroke: '#ef4444', fill: '#ef4444' },
@@ -93,10 +111,10 @@ export default function MapaReporte({ onFeatureSelect }) {
       // Desplazar el zoom con scroll sobre el mapa sin Ctrl
       scrollWheelZoom={true}
     >
-      {/* Capa base OSM */}
+      {/* Capa base: cambiar VISTA_SATELITE arriba para alternar */}
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url={CAPAS_MAPA[VISTA_SATELITE ? 'satelite' : 'calles'].url}
+        attribution={CAPAS_MAPA[VISTA_SATELITE ? 'satelite' : 'calles'].attribution}
       />
 
       {/* ── Polígonos ── */}
