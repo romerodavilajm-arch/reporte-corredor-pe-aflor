@@ -7,28 +7,72 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-99.1338, 19.4278],
-            [-99.1322, 19.4278],
-            [-99.1322, 19.4328],
-            [-99.1338, 19.4328],
-            [-99.1338, 19.4278]
+            [-100.49009888678275, 20.642211429020477],
+            [-100.48883205615549, 20.642692301598885],
+            [-100.4889621139861, 20.64305029082834],
+            [-100.49024715555855, 20.642560435761],
+            [-100.49009888678275, 20.642211429020477]
           ]
         ]
       },
       "properties": {
         "nombre": "Corredor Comercial Peñaflor",
         "tipo": "corredor-principal",
-        "organizacion": "Unión de Comerciantes Peñaflor",
-        "descripcion": "Corredor comercial principal que se extiende a lo largo de la Av. Peñaflor, con presencia de más de 300 comerciantes en la vía pública. Es el eje articulador del comercio informal en la zona.",
-        "horario": "Lunes a domingo, 7:00 – 20:00 hrs",
+        "organizacion": "FECOPSE",
+        "coordinador": "Emilio Pérez Amaro",
+        "coordinador_tianguis": "René García",
+        "ubicacion": "Boulevard Peñaflor esquina Valle de Acatlán",
+        "colonia": "Ciudad del Sol",
+        "delegacion": "Felipe Carrillo Puerto",
+        "ultimo_seguimiento": "2026-02-25",
+        "descripcion": "Corredor comercial principal que se extiende a lo largo del Blvd. Peñaflor, con presencia de 14 food trucks, 12 en operación activa. Los martes y miércoles se instala tianguis en coordinación con el Sr. René García, aumentando significativamente el volumen de comerciantes.",
+        "horario_regular": "Lunes a domingo, 7:00 – 20:00 hrs",
+        "horario_tianguis": "Martes y miércoles, 6:00 – 18:00 hrs",
+        "dias_tianguis": ["martes", "miércoles"],
         "contacto": "Dir. Comercio, Alcaldía: 55 1234-5678",
+        "observaciones": {
+          "food_trucks_totales": 14,
+          "food_trucks_activos": 12,
+          "invasion_banquetas": false,
+          "botes_basura_por_puesto": true,
+          "residuos_acumulados": true,
+          "tipo_residuos": ["basura", "escombro"],
+          "macetas_delimitadoras": true,
+          "conos_estacionamiento": true,
+          "estatus_recoleccion": "pendiente",
+          "tianguis_martes_miercoles": {
+            "activo": true,
+            "coordinador": "René García",
+            "incremento_comerciantes": "significativo",
+            "dias": ["martes", "miércoles"]
+          }
+        },
         "problematicas": [
-          "Bloqueo de vialidades y acceso a predios",
-          "Falta de sanitarios y servicios básicos para comerciantes",
-          "Conflictos entre comerciantes por invasión de espacios",
-          "Acumulación de basura al cierre del día",
-          "Ausencia de señalética y delimitación de áreas"
-        ]
+          "Acumulación de basura y escombro en espera de recolección",
+          "Vehículos estacionados en paralelo a ciclovía provocando tráfico",
+          "Uso indebido de vía pública por estacionamiento irregular",
+          "Daño a infraestructura urbana (árboles removidos)",
+          "Martes y miércoles: incremento de comerciantes por tianguis requiere mayor supervisión"
+        ],
+        "denuncias": [
+          {
+            "folio": "VP/609/2025",
+            "concepto": "Dejar basura en vía pública",
+            "fecha": "2025"
+          },
+          {
+            "folio": "VP/72/2026",
+            "concepto": "Remoción de árboles y estacionamiento en paralelo a ciclovía",
+            "fecha": "2026"
+          }
+        ],
+        "acciones_tomadas": [
+          "Colocación de macetas para delimitar zona de estacionamiento",
+          "Instalación de conos para evitar estacionamiento en acotamiento",
+          "Cada puesto cuenta con bote de basura propio",
+          "Coordinación con René García para organización de tianguis martes y miércoles"
+        ],
+        "pendiente": "Recolección de residuos y escombro acumulados. Evaluar necesidad de mayor vigilancia los días de tianguis."
       }
     }
   ]

@@ -80,8 +80,8 @@ function CapaPoligonos({ data, onSelect }) {
 }
 
 export default function MapaReporte({ onFeatureSelect }) {
-  // Centro aproximado del corredor principal
-  const center = [19.4303, -99.1330]
+  // Centro del Corredor Peñaflor
+  const center = [20.642577, -100.489824]
 
   return (
     <MapContainer
