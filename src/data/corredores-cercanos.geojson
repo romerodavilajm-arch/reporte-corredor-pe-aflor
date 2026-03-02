@@ -22,6 +22,7 @@
         "descripcion": "Corredor comercial ubicado sobre Av. Las Flores, predominantemente dedicado a la venta de ropa y calzado. Integrado principalmente por comerciantes afiliados a CANACO.",
         "horario": "Martes a domingo, 8:00 – 18:00 hrs",
         "contacto": "CANACO Delegación Sur: 55 9876-5432",
+        "imagen_url": "",
         "problematicas": [
           "Problemas de estacionamiento en doble fila",
           "Deficiente alumbrado público nocturno",
@@ -50,6 +51,7 @@
         "descripcion": "Corredor sobre Calle Venustiano Carranza con alta concentración de comerciantes independientes que venden artículos de temporada, bisutería y accesorios.",
         "horario": "Lunes a sábado, 9:00 – 19:00 hrs",
         "contacto": "No disponible",
+        "imagen_url": "",
         "problematicas": [
           "Comerciantes sin registro ni permiso formal",
           "Carencia de seguridad pública en la zona",

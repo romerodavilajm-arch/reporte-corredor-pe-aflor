@@ -19,6 +19,7 @@
         "nombre": "Predio Propuesta de Reubicación",
         "tipo": "propuesta-reubicacion",
         "descripcion": "Predio identificado como sitio candidato para la reubicación ordenada del Corredor Comercial Peñaflor. Su superficie permitiría concentrar los puestos.",
+        "imagen_url": "",
         "problematicas": []
       }
     }

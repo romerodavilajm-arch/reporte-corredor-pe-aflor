@@ -94,6 +94,34 @@ export default function PanelLateral({ feature, onClose }) {
               <SeccionInfo titulo="Horario"       contenido={props.horario} />
               <SeccionInfo titulo="Contacto"      contenido={props.contacto} />
 
+              {/* Botón de imágenes */}
+              {props.imagen_url && (
+                <div className="mb-3">
+                  <a
+                    href={props.imagen_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 w-full py-2 px-3 text-sm font-medium bg-blue-50 text-blue-700 border border-blue-200 rounded-lg hover:bg-blue-100 transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-4 h-4 flex-shrink-0"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                      <circle cx="8.5" cy="8.5" r="1.5" />
+                      <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    Ver imágenes
+                  </a>
+                </div>
+              )}
+
               {/* Problemáticas */}
               {props.problematicas?.length > 0 && (
                 <div className="mb-3">
