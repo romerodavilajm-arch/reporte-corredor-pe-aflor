@@ -19,60 +19,16 @@
         "nombre": "Corredor Comercial Peñaflor",
         "tipo": "corredor-principal",
         "organizacion": "FECOPSE",
-        "coordinador": "Emilio Pérez Amaro",
-        "coordinador_tianguis": "René García",
-        "ubicacion": "Boulevard Peñaflor esquina Valle de Acatlán",
-        "colonia": "Ciudad del Sol",
-        "delegacion": "Felipe Carrillo Puerto",
-        "ultimo_seguimiento": "2026-02-25",
-        "descripcion": "Corredor comercial principal que se extiende a lo largo del Blvd. Peñaflor, con presencia de 14 food trucks, 12 en operación activa. Los martes y miércoles se instala tianguis en coordinación con el Sr. René García, aumentando significativamente el volumen de comerciantes.",
-        "horario_regular": "Lunes a domingo, 7:00 – 20:00 hrs",
-        "horario_tianguis": "Martes y miércoles, 6:00 – 18:00 hrs",
-        "dias_tianguis": ["martes", "miércoles"],
-        "contacto": "Dir. Comercio, Alcaldía: 55 1234-5678",
-        "observaciones": {
-          "food_trucks_totales": 14,
-          "food_trucks_activos": 12,
-          "invasion_banquetas": false,
-          "botes_basura_por_puesto": true,
-          "residuos_acumulados": true,
-          "tipo_residuos": ["basura", "escombro"],
-          "macetas_delimitadoras": true,
-          "conos_estacionamiento": true,
-          "estatus_recoleccion": "pendiente",
-          "tianguis_martes_miercoles": {
-            "activo": true,
-            "coordinador": "René García",
-            "incremento_comerciantes": "significativo",
-            "dias": ["martes", "miércoles"]
-          }
-        },
+        "descripcion": "Corredor comercial principal que se extiende a lo largo del Blvd. Peñaflor. Se encuentran en total 14 Food Trucks instalados, 12 con actividad comercial. Los días martes y miércoles se instalan puestos de tianguis aumentando el volumen de comerciantes en coordinación del señor René García.",
+        "horario": "Lunes a domingo, 7:00 – 20:00 hrs. Martes y miércoles (tianguis) 6:00 – 18:00 hrs",
+        "contacto": "Emilio Pérez Amaro",
         "problematicas": [
-          "Acumulación de basura y escombro en espera de recolección",
-          "Vehículos estacionados en paralelo a ciclovía provocando tráfico",
-          "Uso indebido de vía pública por estacionamiento irregular",
-          "Daño a infraestructura urbana (árboles removidos)",
-          "Martes y miércoles: incremento de comerciantes por tianguis requiere mayor supervisión"
-        ],
-        "denuncias": [
-          {
-            "folio": "VP/609/2025",
-            "concepto": "Dejar basura en vía pública",
-            "fecha": "2025"
-          },
-          {
-            "folio": "VP/72/2026",
-            "concepto": "Remoción de árboles y estacionamiento en paralelo a ciclovía",
-            "fecha": "2026"
-          }
-        ],
-        "acciones_tomadas": [
-          "Colocación de macetas para delimitar zona de estacionamiento",
-          "Instalación de conos para evitar estacionamiento en acotamiento",
-          "Cada puesto cuenta con bote de basura propio",
-          "Coordinación con René García para organización de tianguis martes y miércoles"
-        ],
-        "pendiente": "Recolección de residuos y escombro acumulados. Evaluar necesidad de mayor vigilancia los días de tianguis."
+          "Folios de denuncia VP/609/2025 Folio VP/72/2026",
+          "Dejar basura en vía pública",
+          "Remoción de árboles",
+          "Autos estacionados en paralelo a la ciclovía provocando tráfico",
+          "Uso indebido de vía pública por estacionamiento irregular"
+        ]
       }
     }
   ]

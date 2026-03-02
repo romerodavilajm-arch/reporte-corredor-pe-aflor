@@ -2,16 +2,18 @@ import { useRef } from 'react'
 import { MapContainer, TileLayer, GeoJSON, CircleMarker, Popup } from 'react-leaflet'
 import { getColorOrganizacion } from '../../utils/coloresOrganizaciones'
 
-import corredorPenaflor   from '../../data/corredor-penaflor.geojson'
-import corredoresCercanos from '../../data/corredores-cercanos.geojson'
-import tianguisCercanos   from '../../data/tianguis-cercanos.geojson'
-import puestosViaPublica  from '../../data/puestos-via-publica.geojson'
+import corredorPenaflor      from '../../data/corredor-penaflor.geojson'
+import corredoresCercanos    from '../../data/corredores-cercanos.geojson'
+import tianguisCercanos      from '../../data/tianguis-cercanos.geojson'
+import puestosViaPublica     from '../../data/puestos-via-publica.geojson'
+import propuestaReubicacion  from '../../data/propuesta-reubicacion.geojson'
 
 // Colores base por tipo de polígono
 const COLORES_TIPO = {
-  'corredor-principal': { stroke: '#ef4444', fill: '#ef4444' },
-  'corredor':           { stroke: '#f97316', fill: '#f97316' },
-  'tianguis':           { stroke: '#22c55e', fill: '#22c55e' },
+  'corredor-principal':    { stroke: '#ef4444', fill: '#ef4444' },
+  'corredor':              { stroke: '#f97316', fill: '#f97316' },
+  'tianguis':              { stroke: '#22c55e', fill: '#22c55e' },
+  'propuesta-reubicacion': { stroke: '#0891b2', fill: '#0891b2' },
 }
 
 function colorPorTipo(tipo) {
@@ -98,9 +100,10 @@ export default function MapaReporte({ onFeatureSelect }) {
       />
 
       {/* ── Polígonos ── */}
-      <CapaPoligonos data={corredorPenaflor}   onSelect={onFeatureSelect} />
-      <CapaPoligonos data={corredoresCercanos} onSelect={onFeatureSelect} />
-      <CapaPoligonos data={tianguisCercanos}   onSelect={onFeatureSelect} />
+      <CapaPoligonos data={corredorPenaflor}     onSelect={onFeatureSelect} />
+      <CapaPoligonos data={corredoresCercanos}   onSelect={onFeatureSelect} />
+      <CapaPoligonos data={tianguisCercanos}     onSelect={onFeatureSelect} />
+      <CapaPoligonos data={propuestaReubicacion} onSelect={onFeatureSelect} />
 
       {/* ── Puestos en vía pública (CircleMarkers coloreados por organización) ── */}
       {puestosViaPublica.features.map((feature, idx) => {

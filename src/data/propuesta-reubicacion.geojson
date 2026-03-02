@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-100.48191465978469, 20.64319342850635],
+            [-100.48221226292824, 20.643875251436825],
+            [-100.48277617018176, 20.64364237004088],
+            [-100.48246170507265, 20.642993626644923],
+            [-100.48191465978469, 20.64319342850635]
+          ]
+        ]
+      },
+      "properties": {
+        "nombre": "Predio Propuesta de Reubicación",
+        "tipo": "propuesta-reubicacion",
+        "descripcion": "Predio identificado como sitio candidato para la reubicación ordenada del Corredor Comercial Peñaflor. Su superficie permitiría concentrar los puestos.",
+        "problematicas": []
+      }
+    }
+  ]
+}

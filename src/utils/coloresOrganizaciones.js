@@ -26,7 +26,8 @@ export const LEYENDA_ORGANIZACIONES = [
 ]
 
 export const LEYENDA_POLIGONOS = [
-  { label: 'Corredor Peñaflor',    color: '#ef4444' },
-  { label: 'Corredores cercanos',  color: '#f97316' },
-  { label: 'Tianguis cercanos',    color: '#22c55e' },
+  { label: 'Corredor Peñaflor',        color: '#ef4444' },
+  { label: 'Corredores cercanos',       color: '#f97316' },
+  { label: 'Tianguis cercanos',         color: '#22c55e' },
+  { label: 'Propuesta de reubicación',  color: '#0891b2' },
 ]
