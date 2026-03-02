@@ -51,11 +51,13 @@
         "nombre": "Corredor Gastronómico 'La Cantera'",
         "tipo": "corredor",
         "organizacion": "FECOPSE",
-        "descripcion": "Corredor gastronómico activo con diversos puestos de comida. Zona con alta afluencia de comensales.",
+        "descripcion": "Corredor gastronómico activo con 10 puestos establecidos. Se encuentra dentro de un predio delimitado por reja, lo cual lo convierte en comercio establecido en lugar de comercio en vía pública. Zona con alta afluencia de comensales.",
         "horario": "Por confirmar horario de operación",
         "contacto": "FECOPSE - Coordinación de Corredores",
-        "imagen_url": "",
+        "imagen_url": "https://drive.google.com/file/d/18dFTCkYQDvp6_SV7ceZ8uupfMf8UKhAi/view?usp=drive_link",
         "estatus": "activo",
+        "tipo_comercio": "establecido",
+        "total_puestos": 10,
         "problematicas": [
           "Por confirmar problemáticas específicas de la zona"
         ]
