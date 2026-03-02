@@ -7,26 +7,29 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-99.1355, 19.4345],
-            [-99.1295, 19.4345],
-            [-99.1295, 19.4372],
-            [-99.1355, 19.4372],
-            [-99.1355, 19.4345]
+            [-100.49307618744943, 20.645893411825455],
+            [-100.49329674703019, 20.645796993844016],
+            [-100.49323235007239, 20.645639561228947],
+            [-100.49320176151767, 20.64565312002503],
+            [-100.49318244242998, 20.645610937099846],
+            [-100.49299247140397, 20.64569379640703],
+            [-100.49307618744943, 20.645893411825455]
           ]
         ]
       },
       "properties": {
-        "nombre": "Corredor Norte – Av. Las Flores",
+        "nombre": "Antiguo corredor gastronómico de FECOPSE",
         "tipo": "corredor",
-        "organizacion": "CANACO",
-        "descripcion": "Corredor comercial ubicado sobre Av. Las Flores, predominantemente dedicado a la venta de ropa y calzado. Integrado principalmente por comerciantes afiliados a CANACO.",
-        "horario": "Martes a domingo, 8:00 – 18:00 hrs",
-        "contacto": "CANACO Delegación Sur: 55 9876-5432",
-        "imagen_url": "",
+        "organizacion": "FECOPSE",
+        "descripcion": "Corredor gastronómico que actualmente se encuentra INACTIVO. No hay operación comercial ni puestos instalados en la zona.",
+        "horario": "Sin actividad",
+        "contacto": "No disponible - Corredor inactivo",
+        "imagen_url": "https://drive.google.com/file/d/1_IPQld87X09BcpNdVE49KB0LVgQH24ZJ/view?usp=sharing",
+        "estatus": "inactivo",
         "problematicas": [
-          "Problemas de estacionamiento en doble fila",
-          "Deficiente alumbrado público nocturno",
-          "Falta de orden en la distribución de los puestos"
+          "Corredor completamente inactivo",
+          "No hay datos de contacto disponibles",
+          "Espacio sin uso comercial actualmente"
         ]
       }
     },
@@ -36,26 +39,25 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [-99.1298, 19.4288],
-            [-99.1272, 19.4288],
-            [-99.1272, 19.4333],
-            [-99.1298, 19.4333],
-            [-99.1298, 19.4288]
+            [-100.48902706516921, 20.638726170103624],
+            [-100.48909906445472, 20.63890728829584],
+            [-100.48914794470343, 20.638887507480064],
+            [-100.48907396378624, 20.638707007415945],
+            [-100.48902706516921, 20.638726170103624]
           ]
         ]
       },
       "properties": {
-        "nombre": "Corredor Oriente – Calle Venustiano Carranza",
+        "nombre": "Corredor Gastronómico 'La Cantera'",
         "tipo": "corredor",
-        "organizacion": "Comerciantes Independientes",
-        "descripcion": "Corredor sobre Calle Venustiano Carranza con alta concentración de comerciantes independientes que venden artículos de temporada, bisutería y accesorios.",
-        "horario": "Lunes a sábado, 9:00 – 19:00 hrs",
-        "contacto": "No disponible",
+        "organizacion": "FECOPSE",
+        "descripcion": "Corredor gastronómico activo con diversos puestos de comida. Zona con alta afluencia de comensales.",
+        "horario": "Por confirmar horario de operación",
+        "contacto": "FECOPSE - Coordinación de Corredores",
         "imagen_url": "",
+        "estatus": "activo",
         "problematicas": [
-          "Comerciantes sin registro ni permiso formal",
-          "Carencia de seguridad pública en la zona",
-          "Conflictos frecuentes con vecinos del área"
+          "Por confirmar problemáticas específicas de la zona"
         ]
       }
     }
