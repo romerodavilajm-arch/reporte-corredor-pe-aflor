@@ -1,5 +1,16 @@
 import { LEYENDA_ORGANIZACIONES, LEYENDA_POLIGONOS } from '../../utils/coloresOrganizaciones'
 
+// Conteo manual de puestos por organización (basado en puestos-via-publica.geojson)
+const CONTEO_PUESTOS = {
+  'FECOPSE (azul oscuro)': 34,
+  'Queretaro de Arteaga (azul claro)': 3,
+  'FETAQ': 11,
+  '28 de Octubre': 2,
+  'Ignacio Zaragoza': 4,
+  'Francisco Villa': 1,
+  'Otras organizaciones / Desconocido': 2,
+}
+
 // Badge de tipo de polígono
 const TIPO_LABELS = {
   'corredor-principal':    { label: 'Corredor Principal',       cls: 'bg-red-100 text-red-700' },
@@ -39,15 +50,20 @@ function LeyendaPuestos() {
   return (
     <div>
       <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Puestos por organización</p>
-      {LEYENDA_ORGANIZACIONES.map(({ nombre, color }) => (
-        <div key={nombre} className="flex items-center gap-2 mb-1.5">
-          <span
-            className="inline-block w-3 h-3 rounded-full flex-shrink-0"
-            style={{ backgroundColor: color + '55', border: `2.5px solid ${color}` }}
-          />
-          <span className="text-xs text-gray-600">{nombre}</span>
-        </div>
-      ))}
+      {LEYENDA_ORGANIZACIONES.map(({ nombre, color }) => {
+        const conteo = CONTEO_PUESTOS[nombre] || 0
+        return (
+          <div key={nombre} className="flex items-center gap-2 mb-1.5">
+            <span
+              className="inline-block w-3 h-3 rounded-full flex-shrink-0"
+              style={{ backgroundColor: color + '55', border: `2.5px solid ${color}` }}
+            />
+            <span className="text-xs text-gray-600">
+              {nombre} <span className="font-medium text-gray-800">({conteo})</span>
+            </span>
+          </div>
+        )
+      })}
     </div>
   )
 }
@@ -86,6 +102,13 @@ export default function PanelLateral({ feature, onClose }) {
               {props.tipo && TIPO_LABELS[props.tipo] && (
                 <span className={`inline-block text-xs font-medium px-2 py-0.5 rounded-full mb-3 ${TIPO_LABELS[props.tipo].cls}`}>
                   {TIPO_LABELS[props.tipo].label}
+                </span>
+              )}
+
+              {/* Badge de estatus para corredores inactivos */}
+              {props.estatus === 'inactivo' && (
+                <span className="inline-block text-xs font-medium px-2 py-0.5 rounded-full mb-3 bg-gray-100 text-gray-600 ml-2">
+                  Inactivo
                 </span>
               )}
 
