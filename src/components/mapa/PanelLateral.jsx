@@ -75,7 +75,7 @@ export default function PanelLateral({ feature, onClose }) {
     <div className="w-80 bg-white shadow-xl flex flex-col overflow-hidden z-10 flex-shrink-0">
       {/* ── Encabezado ── */}
       <div className="bg-blue-700 text-white px-4 py-3 flex-shrink-0">
-        <h1 className="text-base font-bold leading-tight">Comercio Zona 3 - Valle de Santiaguo - Ciudad del Sol</h1>
+        <h1 className="text-base font-bold leading-tight">Comercio Zona 3 - Valle de Santiago - Ciudad del Sol</h1>
         <p className="text-xs text-blue-200 mt-0.5">Mapa interactivo de comercio en vía pública</p>
       </div>
 
