@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { LEYENDA_ORGANIZACIONES, LEYENDA_POLIGONOS } from '../../utils/coloresOrganizaciones'
 
 // Conteo manual de puestos por organización (basado en puestos-via-publica.geojson)
@@ -70,9 +71,15 @@ function LeyendaPuestos() {
 
 export default function PanelLateral({ feature, onClose }) {
   const props = feature?.properties
+  const [abierto, setAbierto] = useState(true)
 
   return (
-    <div className="w-80 bg-white shadow-xl flex flex-col overflow-hidden z-10 flex-shrink-0">
+    <div className="flex flex-shrink-0 z-10 h-full">
+      {/* Panel deslizable */}
+      <div
+        className="bg-white shadow-xl flex flex-col overflow-hidden transition-all duration-300"
+        style={{ width: abierto ? '20rem' : '0', minWidth: 0 }}
+      >
       {/* ── Encabezado ── */}
       <div className="bg-blue-700 text-white px-4 py-3 flex-shrink-0">
         <h1 className="text-base font-bold leading-tight">Comercio Zona 3 - Valle de Santiago - Ciudad del Sol</h1>
@@ -226,6 +233,30 @@ export default function PanelLateral({ feature, onClose }) {
           <LeyendaPuestos />
         </div>
       </div>
+      </div>{/* fin panel deslizable */}
+
+      {/* Botón toggle */}
+      <button
+        onClick={() => setAbierto(a => !a)}
+        title={abierto ? 'Ocultar panel' : 'Mostrar panel'}
+        className="flex-shrink-0 self-center flex items-center justify-center w-7 h-16 bg-blue-700 text-white rounded-r-lg shadow-lg hover:bg-blue-600 active:bg-blue-800 transition-colors cursor-pointer"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-4 h-4"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          {abierto
+            ? <polyline points="15 18 9 12 15 6" />
+            : <polyline points="9 18 15 12 9 6" />
+          }
+        </svg>
+      </button>
     </div>
   )
 }
