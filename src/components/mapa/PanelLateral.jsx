@@ -13,7 +13,7 @@ const CONTEO_PUESTOS = {
 
 // Badge de tipo de polígono
 const TIPO_LABELS = {
-  'corredor-principal':    { label: 'Corredor Principal',       cls: 'bg-red-100 text-red-700' },
+  'corredor-principal':    { label: 'Terreno Invadido',       cls: 'bg-red-100 text-red-700' },
   'corredor':              { label: 'Corredor',                 cls: 'bg-orange-100 text-orange-700' },
   'tianguis':              { label: 'Tianguis',                 cls: 'bg-green-100 text-green-700' },
   'propuesta-reubicacion': { label: 'Propuesta de Reubicación', cls: 'bg-cyan-100 text-cyan-700' },
