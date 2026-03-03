@@ -10,8 +10,7 @@
         "organizacion": "FETAQ",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -30,8 +29,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -50,8 +48,7 @@
         "organizacion": "Francisco Villa",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -70,8 +67,7 @@
         "organizacion": "FETAQ",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -90,8 +86,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -110,8 +105,7 @@
         "organizacion": "FETAQ",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -130,8 +124,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -150,8 +143,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": "Dejan basura"
+        "dias": "Fines de semana"
       },
       "geometry": {
         "coordinates": [
@@ -170,8 +162,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": "Dejan basura"
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -190,8 +181,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": "Dejan basura"
+        "dias": "Fines de semana"
       },
       "geometry": {
         "coordinates": [
@@ -210,8 +200,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": "Dejan basura"
+        "dias": "Fines de semana"
       },
       "geometry": {
         "coordinates": [
@@ -230,8 +219,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": "Dejan basura"
+        "dias": "Fines de semana"
       },
       "geometry": {
         "coordinates": [
@@ -250,8 +238,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": "Dejan basura"
+        "dias": "Fines de semana"
       },
       "geometry": {
         "coordinates": [
@@ -269,9 +256,8 @@
         "giro": "Pollos asados",
         "organizacion": "Queretaro de Arteaga",
         "tipo": "puesto",
-        "horario": "De 15:00 a 23:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": "Deja basura"
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -286,12 +272,11 @@
       "type": "Feature",
       "properties": {
         "nombre": "Puesto 15",
-        "giro": "Tacos de suadero",
+        "giro": "Tacos",
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 15:00 a 23:00 hrs",
-        "dias": "Lunes a Viernes",
-        "denuncia": ""
+        "dias": "Lunes a Viernes"
       },
       "geometry": {
         "coordinates": [
@@ -310,8 +295,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": ""
+        "dias": "Fines de semana"
       },
       "geometry": {
         "coordinates": [
@@ -330,8 +314,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -350,8 +333,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -370,8 +352,7 @@
         "organizacion": "FETAQ",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -390,8 +371,7 @@
         "organizacion": "FETAQ",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -410,8 +390,7 @@
         "organizacion": "FETAQ",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -430,8 +409,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -450,8 +428,7 @@
         "organizacion": "Ignazio Zaragoza",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -469,9 +446,8 @@
         "giro": "Pollos asados",
         "organizacion": "Queretaro de Arteaga",
         "tipo": "puesto",
-        "horario": "De 15:00 a 23:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": "Deja basura"
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -490,8 +466,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -509,9 +484,8 @@
         "giro": "Crepas",
         "organizacion": "FECOPSE",
         "tipo": "puesto",
-        "horario": "De 15:00 a 23:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": "Obstruye cajon de estacionamiento"
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -529,9 +503,8 @@
         "giro": "Tacos",
         "organizacion": "FECOPSE",
         "tipo": "puesto",
-        "horario": "De 15:00 a 23:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": "Obstruye cajon de estacionamiento"
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Fines de semana"
       },
       "geometry": {
         "coordinates": [
@@ -550,8 +523,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -570,8 +542,7 @@
         "organizacion": "Ignacio Zaragoza",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -589,9 +560,8 @@
         "giro": "Hotdos",
         "organizacion": "FETAQ",
         "tipo": "puesto",
-        "horario": "De 15:00 a 23:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -609,9 +579,8 @@
         "giro": "Elotes",
         "organizacion": "FECOPSE",
         "tipo": "puesto",
-        "horario": "De 15:00 a 23:00 hrs",
-        "dias": "Lunes, miercoles, jueves, viernes y domingo",
-        "denuncia": ""
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -626,12 +595,11 @@
       "type": "Feature",
       "properties": {
         "nombre": "Puesto 32",
-        "giro": "Pollos asados",
+        "giro": "Pollos",
         "organizacion": "Queretaro de Arteaga",
         "tipo": "puesto",
-        "horario": "De 15:00 a 23:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": "Deja basura"
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -650,8 +618,7 @@
         "organizacion": "Ignazio Zaragoza",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -669,9 +636,8 @@
         "giro": "Preparados",
         "organizacion": "FETAQ",
         "tipo": "puesto",
-        "horario": "De 15:00 a 23:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": ""
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -690,8 +656,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -710,8 +675,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": "Excedido de metraje"
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -730,8 +694,7 @@
         "organizacion": "Ignacio Zaragoza",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -750,8 +713,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -770,8 +732,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -786,12 +747,11 @@
       "type": "Feature",
       "properties": {
         "nombre": "Puesto 40",
-        "giro": "Tacos de suadero",
+        "giro": "Tacos",
         "organizacion": "FECOPSE",
         "tipo": "puesto",
-        "horario": "De 15:00 a 23:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": ""
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -810,8 +770,7 @@
         "organizacion": "FETAQ",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -830,8 +789,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -850,8 +808,7 @@
         "organizacion": "28 de Octubre",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -870,8 +827,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -890,8 +846,7 @@
         "organizacion": "28 de Octubre",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -910,8 +865,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -930,8 +884,7 @@
         "organizacion": "Ignacio Zaragoza",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -950,8 +903,7 @@
         "organizacion": "Desconocido",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -970,8 +922,7 @@
         "organizacion": "Desconocido",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -990,8 +941,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Domingo",
-        "denuncia": "Excedido de metraje"
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -1010,8 +960,7 @@
         "organizacion": "FETAQ",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -1030,8 +979,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -1049,9 +997,8 @@
         "giro": "Flores",
         "organizacion": "FECOPSE",
         "tipo": "puesto",
-        "horario": "De 7:00 a 23:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -1070,8 +1017,7 @@
         "organizacion": "FETAQ",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
@@ -1090,8 +1036,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": ""
+        "dias": "Fines de semana"
       },
       "geometry": {
         "coordinates": [
@@ -1110,8 +1055,7 @@
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Fines de semana",
-        "denuncia": ""
+        "dias": "Fines de semana"
       },
       "geometry": {
         "coordinates": [
@@ -1125,238 +1069,17 @@
       "id": "NAEHjflG0AmKghwzSHo0Y7Sm61Rga2B6",
       "type": "Feature",
       "properties": {
-        "nombre": "Puesto 57",
+        "nombre": "Puesto 56",
         "giro": "Elotes",
         "organizacion": "FECOPSE",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Lunes a Domingo",
-        "denuncia": ""
+        "dias": "Lunes a Domingo"
       },
       "geometry": {
         "coordinates": [
           -100.48774145734653,
           20.63919145930349
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "mNl6YHbdPlnXOOLjFvqZYSlJtGY6SqoU",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 58",
-        "giro": "Carnitas",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.48406463427644,
-          20.648037563748133
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "NXvAiSQyNHIxmTx6wIByPosoiZR7mT6a",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 59",
-        "giro": "Tacos de bisteck",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.4841255051806,
-          20.648044128344566
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "IimOCSe5JxPmET2WvCFHli2LyiVXjeC4",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 60",
-        "giro": "Tacos de chorizo",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.48419335766869,
-          20.648073433231318
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "q98HbADguXEwldLYBMyFR6odhSWjndxN",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 61",
-        "giro": "Gordias estilo Colon",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.4842559907348,
-          20.648102738112428
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "XiyOPn9GM1dSsR8rhGjs24IDVgMC5fkf",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 62",
-        "giro": "Chilaquiles",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.48430818495602,
-          20.64813204298791
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "g2dTQMAHRx6LIPCx5tSLoFyDPI1zudNO",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 63",
-        "giro": "Aguas y fruta",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.48409418864779,
-          20.64809296981963
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "BW4QVe3yrtYuwJtHw65v9mFZ8OFb4xnX",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 64",
-        "giro": "Postres",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.48417769940228,
-          20.648122274696988
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "PHOeJFZi2MZaj9qalMHuQUsi7DHu78pS",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 65",
-        "giro": "Tacos de barbacoa",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.48435515975571,
-          20.648102738112428
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "Bg5FXmleK2DhWhBd3kBOACME3Rbn1He5",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 66",
-        "giro": "Hamburguesas",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.48440735397737,
-          20.64809296981963
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "8xofmQpDxTUSa3ZOz0L0aY7U3WpTpVxS",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 67",
-        "giro": "Desayunos",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.4843603791777,
-          20.648166232002836
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "id": "cO1tdAANhhEv5NtYwjGn8USkqzDgyTZN",
-      "type": "Feature",
-      "properties": {
-        "nombre": "Puesto 68",
-        "giro": "Tamales",
-        "organizacion": "FECOPSE",
-        "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
-        "dias": "Sábados",
-        "denuncia": ""
-      },
-      "geometry": {
-        "coordinates": [
-          -100.4844230122438,
-          20.648146695423932
         ],
         "type": "Point"
       }
