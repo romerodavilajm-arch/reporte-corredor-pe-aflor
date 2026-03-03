@@ -13,9 +13,9 @@ const CONTEO_PUESTOS = {
 
 // Badge de tipo de polígono
 const TIPO_LABELS = {
-  'corredor-principal':    { label: 'Terreno Invadido',       cls: 'bg-red-100 text-red-700' },
-  'corredor':              { label: 'Corredor',                 cls: 'bg-orange-100 text-orange-700' },
-  'tianguis':              { label: 'Tianguis',                 cls: 'bg-green-100 text-green-700' },
+  'corredor-principal': { label: 'Terreno Invadido', cls: 'bg-red-100 text-red-700' },
+  'corredor': { label: 'Corredor', cls: 'bg-orange-100 text-orange-700' },
+  'tianguis': { label: 'Tianguis', cls: 'bg-green-100 text-green-700' },
   'propuesta-reubicacion': { label: 'Propuesta de Reubicación', cls: 'bg-cyan-100 text-cyan-700' },
 }
 
@@ -112,10 +112,17 @@ export default function PanelLateral({ feature, onClose }) {
                 </span>
               )}
 
+              {/* Badge de estatus para corredores abiertos */}
+              {props.estatus === 'abierto' && (
+                <span className="inline-block text-xs font-medium px-2 py-0.5 rounded-full mb-3 bg-green-100 text-green-600 ml-2">
+                  Abierto
+                </span>
+              )}
+
               <SeccionInfo titulo="Organización" contenido={props.organizacion} />
-              <SeccionInfo titulo="Descripción"  contenido={props.descripcion} />
-              <SeccionInfo titulo="Horario"       contenido={props.horario} />
-              <SeccionInfo titulo="Contacto"      contenido={props.contacto} />
+              <SeccionInfo titulo="Descripción" contenido={props.descripcion} />
+              <SeccionInfo titulo="Horario" contenido={props.horario} />
+              <SeccionInfo titulo="Contacto" contenido={props.contacto} />
 
               {/* Botón de imágenes */}
               {props.imagen_url && (
