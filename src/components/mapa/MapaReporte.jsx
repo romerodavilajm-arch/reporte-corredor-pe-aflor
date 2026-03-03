@@ -126,7 +126,7 @@ export default function MapaReporte({ onFeatureSelect }) {
       {/* ── Puestos en vía pública (CircleMarkers coloreados por organización) ── */}
       {puestosViaPublica.features.map((feature, idx) => {
         const [lng, lat] = feature.geometry.coordinates
-        const { nombre, giro, organizacion } = feature.properties
+        const { nombre, giro, organizacion, horario, dias, denuncia } = feature.properties
         const color = getColorOrganizacion(organizacion)
 
         return (
@@ -156,6 +156,23 @@ export default function MapaReporte({ onFeatureSelect }) {
                   />
                   <span>{organizacion}</span>
                 </p>
+                {horario && (
+                  <p className="mt-0.5">
+                    <span className="font-medium text-gray-600">Horario: </span>
+                    {horario}
+                  </p>
+                )}
+                {dias && (
+                  <p className="mt-0.5">
+                    <span className="font-medium text-gray-600">Días: </span>
+                    {dias}
+                  </p>
+                )}
+                {denuncia && (
+                  <p className="mt-0.5 text-red-600 font-medium">
+                    ⚠ {denuncia}
+                  </p>
+                )}
               </div>
             </Popup>
           </CircleMarker>
