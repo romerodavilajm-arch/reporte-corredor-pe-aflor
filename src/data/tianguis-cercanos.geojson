@@ -30,38 +30,6 @@
           "Ruido excesivo que afecta a residentes de la zona"
         ]
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-100.483868785372, 20.647613483103896],
-            [-100.48379503319867, 20.64765313420385],
-            [-100.48399244370592, 20.648121412199487],
-            [-100.48408046140153, 20.64810088177221],
-            [-100.48424023042912, 20.648164301108224],
-            [-100.48434266663051, 20.64812439679568],
-            [-100.48403893599091, 20.648008561192455],
-            [-100.483868785372, 20.647613483103896]
-          ]
-        ]
-      },
-      "properties": {
-        "nombre": "Tianguis CESBA",
-        "tipo": "tianguis",
-        "organizacion": "FECOPSE",
-        "descripcion": "Tianguis que se instala los sábados en las inmediaciones del Centro de Estudios Superiores del Bajío (CESBA). Cuenta con 20 puestos de diversos giros comerciales.",
-        "horario": "Sábados, 6:00 – 14:00 hrs",
-        "contacto": "FECOPSE - Coordinación de Tianguis",
-        "imagen_url": "https://drive.google.com/file/d/1wEd8WYiQZ_rOEK7Grz8wGR60gw_Nh6jk/view?usp=sharing",
-        "problematicas": [
-          "Espacio reducido para la cantidad de puestos",
-          "Falta de señalización para acceso de clientes",
-          "Estacionamiento irregular en zonas aledañas"
-        ]
-      }
     }
   ]
 }
