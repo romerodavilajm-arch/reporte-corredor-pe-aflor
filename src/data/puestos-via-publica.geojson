@@ -486,10 +486,10 @@
       "type": "Feature",
       "properties": {
         "nombre": "Puesto 25",
-        "giro": "Tacos",
+        "giro": "Tacos de bisteck",
         "organizacion": "FECOPSE",
         "tipo": "puesto",
-        "horario": "De 7:00 a 15:00 hrs",
+        "horario": "De 15:00 a 23:00 hrs",
         "dias": "Lunes a Domingo",
         "denuncia": ""
       },
