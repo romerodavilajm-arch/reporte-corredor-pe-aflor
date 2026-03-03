@@ -1360,6 +1360,126 @@
         ],
         "type": "Point"
       }
+    },
+    {
+      "id": "RryuBC4gIW10faFW59htQwH2EUIkn6As",
+      "type": "Feature",
+      "properties": {
+        "nombre": "Puesto 69",
+        "giro": "Barbacoa",
+        "organizacion": "FECOPSE",
+        "tipo": "puesto",
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Domingo",
+        "denuncia": "Excedido de metraje"
+      },
+      "geometry": {
+        "coordinates": [
+          -100.47852495225774,
+          20.647468323536728
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "b6IjT7TPlzPKVKiyEhB8vA5XrrcAGloH",
+      "type": "Feature",
+      "properties": {
+        "nombre": "Puesto 70",
+        "giro": "Gorditas y tacos de guisado",
+        "organizacion": "Francisco Villa",
+        "tipo": "puesto",
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Sábado",
+        "denuncia": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -100.49960804718492,
+          20.637536478177935
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "NJqmZ3iE27aEiRDqgnaIbNhZJeIHVtBz",
+      "type": "Feature",
+      "properties": {
+        "nombre": "Puesto 71",
+        "giro": "Chilaquiles",
+        "organizacion": "Francisco Villa",
+        "tipo": "puesto",
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Sábado",
+        "denuncia": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -100.49971295171672,
+          20.637534133908048
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "un15WwBOiqIEmpeVAQbsxnkpn967Txa5",
+      "type": "Feature",
+      "properties": {
+        "nombre": "Puesto 72",
+        "giro": "Tacos de bisteck y chorizo",
+        "organizacion": "FECOPSE",
+        "tipo": "puesto",
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Sábado",
+        "denuncia": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -100.49977365622901,
+          20.637526387221854
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "svTMNo4X4pD2xKmhbea3NYcchZMiKGrl",
+      "type": "Feature",
+      "properties": {
+        "nombre": "Puesto 73",
+        "giro": "DEsayunos",
+        "organizacion": "FECOPSE",
+        "tipo": "puesto",
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Sábado",
+        "denuncia": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -100.49984401827717,
+          20.63753671613729
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "wHRqQaT6Jzu6Hm9VPtExpEkjxLXMhMTc",
+      "type": "Feature",
+      "properties": {
+        "nombre": "Puesto 74",
+        "giro": "Tacos de de guiso",
+        "organizacion": "FECOPSE",
+        "tipo": "puesto",
+        "horario": "De 7:00 a 15:00 hrs",
+        "dias": "Lunes a Sábado",
+        "denuncia": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -100.49985367581303,
+          20.637580614019342
+        ],
+        "type": "Point"
+      }
     }
   ]
 }
