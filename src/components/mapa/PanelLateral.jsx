@@ -120,6 +120,7 @@ export default function PanelLateral({ feature, onClose }) {
               )}
 
               <SeccionInfo titulo="Organización" contenido={props.organizacion} />
+              <SeccionInfo titulo="Ubicación" contenido={props.ubicacion} />
               <SeccionInfo titulo="Descripción" contenido={props.descripcion} />
               <SeccionInfo titulo="Horario" contenido={props.horario} />
               <SeccionInfo titulo="Contacto" contenido={props.contacto} />
@@ -166,6 +167,39 @@ export default function PanelLateral({ feature, onClose }) {
                   </ul>
                 </div>
               )}
+
+              {/* Denuncias */}
+              {props.denuncias?.length > 0 && (
+                <div className="mb-3">
+                  <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Denuncias</span>
+                  <ul className="mt-1 space-y-1">
+                    {props.denuncias.map((d, i) => (
+                      <li key={i} className="flex items-start gap-1.5 text-sm text-gray-700">
+                        <span className="text-orange-400 font-bold mt-0.5 flex-shrink-0">•</span>
+                        <span className="leading-snug">Folio {d.folio} — {d.tipo}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Estado actual: medidas implementadas */}
+              {props.estado_actual?.medidas_implementadas?.length > 0 && (
+                <div className="mb-3">
+                  <span className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Medidas implementadas</span>
+                  <ul className="mt-1 space-y-1">
+                    {props.estado_actual.medidas_implementadas.map((m, i) => (
+                      <li key={i} className="flex items-start gap-1.5 text-sm text-gray-700">
+                        <span className="text-green-500 font-bold mt-0.5 flex-shrink-0">✓</span>
+                        <span className="leading-snug">{m}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              <SeccionInfo titulo="Evaluación" contenido={props.estado_actual?.evaluacion} />
+              <SeccionInfo titulo="Análisis de propuesta" contenido={props.analisis_propuesta} />
             </>
           ) : (
             /* ── Vista bienvenida ── */

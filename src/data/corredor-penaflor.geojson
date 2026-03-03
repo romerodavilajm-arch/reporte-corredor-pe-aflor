@@ -19,17 +19,36 @@
         "nombre": "Corredor Comercial Peñaflor",
         "tipo": "corredor-principal",
         "organizacion": "FECOPSE",
-        "descripcion": "Corredor comercial principal que se extiende a lo largo del Blvd. Peñaflor. Se encuentran en total 14 Food Trucks instalados, 12 con actividad comercial. Los días miércoles, viernes (4:00 – 23:00 hrs) y domingo (8:00 – 16:00 hrs) se instala el tianguis del señor René García, aumentando significativamente el volumen de comerciantes en la zona.",
-        "horario": "Lunes a domingo, 7:00 – 20:00 hrs. Tianguis: miércoles y viernes (16:00 – 23:00 hrs), domingo (8:00 – 16:00 hrs)",
-        "contacto": "Emilio Pérez Amaro",
+        "ubicacion": "Boulevard Peñaflor esquina Valle de Acatlán",
+        "descripcion": "Corredor comercial en forma de 'L' que opera sobre la vía pública, conformado por 14 Food Trucks instalados. Cuenta con un estacionamiento sobre terracería con capacidad aproximada para 30 vehículos y botes de basura en cada puesto. Los días miércoles, viernes y domingo se instalan puestos de tianguis a cargo del señor René García, incrementando significativamente el volumen de comerciantes y visitantes en la zona. El corredor alberga diversos giros comerciales, lo que lo convierte en un punto de atracción para la comunidad.",
+        "horario": "Comercios fijos: lunes a domingo de 7:00 a 20:00 hrs. Tianguis (René García): miércoles y viernes de 16:00 a 23:00 hrs, domingo de 8:00 a 16:00 hrs",
+        "contacto": "Emilio Pérez Amaro, René García",
         "imagen_url": "https://drive.google.com/file/d/1vTua8efg2KE4dKhK9x09VKoJC05hj7m3/view?usp=drive_link",
+        "estado_actual": {
+          "medidas_implementadas": [
+            "Instalación de señalamientos viales para evitar que los vehículos se estacionen en paralelo a la ciclovía",
+            "Estacionamiento sobre terracería con capacidad aproximada de 30 vehículos",
+            "Botes de basura colocados en cada puesto comercial"
+          ],
+          "evaluacion": "El sitio presenta condiciones básicas de orden, aunque persisten áreas de oportunidad en materia de cultura vial y manejo de residuos."
+        },
+        "denuncias": [
+          {
+            "folio": "VP/609/2025",
+            "tipo": "Queja ciudadana"
+          },
+          {
+            "folio": "VP/72/2026",
+            "tipo": "Queja ciudadana"
+          }
+        ],
         "problematicas": [
-          "Folios de denuncia VP/609/2025 y VP/72/2026",
           "Dejar basura en vía pública",
           "Remoción de árboles",
           "Autos estacionados en paralelo a la ciclovía provocando tráfico",
           "Uso indebido de vía pública por estacionamiento irregular"
-        ]
+        ],
+        "analisis_propuesta": "Si bien el corredor cuenta con denuncias ciudadanas foliadas, el sitio muestra actualmente cierto nivel de orden gracias a la infraestructura implementada: estacionamiento delimitado, señalización vial y contenedores de basura por puesto. La problemática recurrente de tráfico y estacionamiento indebido responde en gran medida a hábitos de los clientes más que a una falta de capacidad del espacio. Por lo tanto, la propuesta se enfoca en fomentar buenas prácticas y cultura vial entre los visitantes, a través de campañas de sensibilización, y en fortalecer la vigilancia para garantizar el respeto a la señalética existente. Con estas acciones, se puede mitigar el conflicto sin necesidad de reubicar el corredor."
       }
     }
   ]
