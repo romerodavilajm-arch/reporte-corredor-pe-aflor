@@ -105,10 +105,10 @@ export default function PanelLateral({ feature, onClose }) {
                 </span>
               )}
 
-              {/* Badge de estatus para corredores inactivos */}
-              {props.estatus === 'inactivo' && (
+              {/* Badge de estatus para corredores cerrados */}
+              {props.estatus === 'cerrado' && (
                 <span className="inline-block text-xs font-medium px-2 py-0.5 rounded-full mb-3 bg-gray-100 text-gray-600 ml-2">
-                  Inactivo
+                  Cerrado
                 </span>
               )}
 

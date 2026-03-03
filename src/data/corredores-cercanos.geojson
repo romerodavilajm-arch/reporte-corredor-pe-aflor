@@ -25,7 +25,7 @@
         "horario": "Sin actividad",
         "contacto": "No disponible - Corredor inactivo",
         "imagen_url": "https://drive.google.com/file/d/1_IPQld87X09BcpNdVE49KB0LVgQH24ZJ/view?usp=sharing",
-        "estatus": "inactivo",
+        "estatus": "cerrado",
         "problematicas": [
           "Corredor completamente inactivo",
           "No hay datos de contacto disponibles",
