@@ -22,16 +22,16 @@ export function getColorOrganizacion(organizacion) {
 // Entradas de leyenda en el orden en que deben mostrarse
 export const LEYENDA_ORGANIZACIONES = [
   { nombre: 'FECOPSE (azul oscuro)',        color: '#1e3a8a' },
-  { nombre: 'Queretaro de Arteaga (azul claro)', color: '#60a5fa' },
   { nombre: 'FETAQ',                         color: '#a855f7' },
   { nombre: '28 de Octubre',                  color: '#166534' },
   { nombre: 'Ignacio Zaragoza',               color: '#eab308' },
   { nombre: 'Francisco Villa',                color: '#dc2626' },
+  { nombre: 'Queretaro de Arteaga (azul claro)', color: '#60a5fa' },
   { nombre: 'Otras organizaciones / Desconocido', color: '#6b7280' },
 ]
 
 export const LEYENDA_POLIGONOS = [
-  { label: 'Corredor Peñaflor',        color: '#ef4444' },
+  { label: 'Corredor Peñaflor (Terreno Invadido)',        color: '#ef4444' },
   { label: 'Corredores cercanos',       color: '#f97316' },
   { label: 'Tianguis cercanos',         color: '#22c55e' },
   { label: 'Propuesta de reubicación',  color: '#0891b2' },
