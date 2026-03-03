@@ -1,0 +1,12 @@
+📊 CONTEO DE PUESTOS POR ORGANIZACIÓN
+========================================
+FECOPSE: 44 puestos
+FETAQ: 11 puestos
+Queretaro de Arteaga: 3 puestos
+Ignacio Zaragoza: 3 puestos
+Ignazio Zaragoza: 2 puestos
+28 de Octubre: 2 puestos
+Desconocido: 2 puestos
+Francisco Villa: 1 puestos
+========================================
+TOTAL: 68 puestos

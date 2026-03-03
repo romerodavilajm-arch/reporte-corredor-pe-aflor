@@ -2,11 +2,11 @@ import { LEYENDA_ORGANIZACIONES, LEYENDA_POLIGONOS } from '../../utils/coloresOr
 
 // Conteo manual de puestos por organización (basado en puestos-via-publica.geojson)
 const CONTEO_PUESTOS = {
-  'FECOPSE (azul oscuro)': 34,
+  'FECOPSE (azul oscuro)': 44,
   'Queretaro de Arteaga (azul claro)': 3,
   'FETAQ': 11,
   '28 de Octubre': 2,
-  'Ignacio Zaragoza': 4,
+  'Ignacio Zaragoza': 5,
   'Francisco Villa': 1,
   'Otras organizaciones / Desconocido': 2,
 }
