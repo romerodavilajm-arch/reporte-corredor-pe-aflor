@@ -33,6 +33,7 @@
       "properties": {
         "nombre": "Predio Propuesta de Reubicación 1",
         "tipo": "propuesta-reubicacion",
+        "metros_cuadrados": 5049.18,
         "descripcion": "Predio candidato para la reubicación del Corredor Peñaflor, con el fin de liberar la vialidad y optimizar el flujo de personas en el entorno. Ubicado en Cto. Puerta del Sol, entre Punta Norte y Av. Valle de Santiago, ofrece la superficie necesaria para concentrar la totalidad de los puestos comerciales, eliminando el conflicto actual entre peatones y vehículos. El terreno se encuentra actualmente cubierto de maleza y ramas, por lo que se requerirán trabajos preliminares de limpieza y desmonte; adicionalmente, la topografía irregular es un factor a considerar en el diseño de las circulaciones, pero ninguna de estas condiciones compromete la viabilidad del proyecto ni la capacidad de generar un flujo peatonal eficiente y seguro dentro del nuevo mercado.",
         "imagen_url": "https://drive.google.com/file/d/1LhXOD1_7Apm6soHEuXSGJ_SKEHSsFIA5/view?usp=sharing",
         "problematicas": []
@@ -71,6 +72,7 @@
       "properties": {
         "nombre": "Predio Propuesta de Reubicación 2",
         "tipo": "propuesta-reubicacion",
+        "metros_cuadrados": 1461.8,
         "descripcion": "Sitio candidato para la reubicación del Corredor Peñaflor, localizado en el cruce de Blvd. Peñaflor y Valle de Tehuacán. Se trata de un predio de superficie regular, lo que facilita su trazo y aprovechamiento. No obstante, su tamaño reducido representa un reto de espacio para albergar a todos los comerciantes, por lo que se requerirá un diseño eficiente y compacto. A esto se suma el desafío de la distribución interna y los accesos, debido a la presencia de flujo vehicular constante en ambas avenidas, lo que obliga a planificar con prioridad la seguridad y el flujo continuo de peatones y automovilistas.",
         "imagen_url": "https://drive.google.com/file/d/1NEsVvLIjtGD229E510qbcWyi0M7zK2Cd/view?usp=sharing",
         "problematicas": []
