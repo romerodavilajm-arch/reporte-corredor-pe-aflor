@@ -447,7 +447,7 @@
       "properties": {
         "nombre": "Puesto 23",
         "giro": "Tamales",
-        "organizacion": "Ignazio Zaragoza",
+        "organizacion": "Ignacio Zaragoza",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
         "dias": "Lunes a Domingo",
@@ -647,7 +647,7 @@
       "properties": {
         "nombre": "Puesto 33",
         "giro": "Dulces",
-        "organizacion": "Ignazio Zaragoza",
+        "organizacion": "Ignacio Zaragoza",
         "tipo": "puesto",
         "horario": "De 7:00 a 15:00 hrs",
         "dias": "Lunes a Domingo",

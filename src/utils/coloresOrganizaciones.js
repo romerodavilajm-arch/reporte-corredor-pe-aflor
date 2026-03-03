@@ -4,7 +4,6 @@ export const COLORES_ORGANIZACIONES = {
   'FETAQ':               '#a855f7',   // morado
   '28 de Octubre':       '#166534',   // verde oscuro
   'Ignacio Zaragoza':    '#eab308',   // amarillo
-  'Ignazio Zaragoza':    '#eab308',   // amarillo (variante con z)
   'Francisco Villa':     '#dc2626',   // rojo
   'Queretaro de Arteaga': '#60a5fa',  // azul claro
 }
