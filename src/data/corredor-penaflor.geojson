@@ -21,7 +21,7 @@
         "organizacion": "FECOPSE",
         "ubicacion": "Boulevard Peñaflor esquina Valle de Acatlán",
         "metros_cuadrados": 6000,
-        "descripcion": "Corredor comercial que opera sobre predio municipal destinado a área verde, con una superficie invadida de ~6,000 m².",
+        "descripcion": "Corredor comercial que opera sobre predio municipal destinado a área verde.",
         "horario": "Días de instalación:\n• Lunes a Domingo: instalan 14 food trucks con horario de 10:00 a 23:00 hrs.\n• Miércoles: se instala tianguis con 30 comerciantes con horario de 16:00 a 23:00 hrs.\n• Viernes: se instala un bazar con 25 comerciantes en horario de 16:00 a 23:00 hrs.\n• Domingo: se instala tianguis con 30 comerciantes en horario de 08:00 a 17:00 hrs.",
         "contacto": "Emilio Pérez Amaro (Coordinador de la actividad comercial), René García (Coordinador del tianguis) – Tel: 4423180901",
         "imagen_url": "https://drive.google.com/file/d/1vTua8efg2KE4dKhK9x09VKoJC05hj7m3/view?usp=drive_link",
@@ -36,6 +36,10 @@
           },
           {
             "folio": "VP/72/2026",
+            "tipo": "Queja ciudadana"
+          },
+          {
+            "folio": "VP/149/2026",
             "tipo": "Queja ciudadana"
           }
         ],

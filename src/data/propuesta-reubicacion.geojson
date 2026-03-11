@@ -1,82 +1,233 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -100.48191465978469,
-              20.64319342850635
-            ],
-            [
-              -100.48221226292824,
-              20.643875251436825
-            ],
-            [
-              -100.48277617018176,
-              20.64364237004088
-            ],
-            [
-              -100.48246170507265,
-              20.642993626644923
-            ],
-            [
-              -100.48191465978469,
-              20.64319342850635
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "nombre": "Predio Propuesta de Reubicación 1",
-        "tipo": "propuesta-reubicacion",
-        "metros_cuadrados": 5049.18,
-        "descripcion": "Predio candidato para la reubicación del Corredor Peñaflor, con el fin de liberar la vialidad y optimizar el flujo de personas en el entorno. Ubicado en Cto. Puerta del Sol, entre Punta Norte y Av. Valle de Santiago, ofrece la superficie necesaria para concentrar la totalidad de los puestos comerciales, eliminando el conflicto actual entre peatones y vehículos. El terreno se encuentra actualmente cubierto de maleza y ramas, por lo que se requerirán trabajos preliminares de limpieza y desmonte; adicionalmente, la topografía irregular es un factor a considerar en el diseño de las circulaciones, pero ninguna de estas condiciones compromete la viabilidad del proyecto ni la capacidad de generar un flujo peatonal eficiente y seguro dentro del nuevo mercado.",
-        "imagen_url": "https://drive.google.com/file/d/1LhXOD1_7Apm6soHEuXSGJ_SKEHSsFIA5/view?usp=sharing",
-        "problematicas": []
-      }
-    },
-    {
-      "id": "9v4RkFHIu0WdCwxk0oqrlL3r3ocJgoBj",
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -100.48753035496523,
-              20.64353648457177
-            ],
-            [
-              -100.48743133753824,
-              20.643292199691956
-            ],
-            [
-              -100.48788141675158,
-              20.643119515315064
-            ],
-            [
-              -100.4879781837826,
-              20.643361694568583
-            ],
-            [
-              -100.48753035496523,
-              20.64353648457177
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "nombre": "Predio Propuesta de Reubicación 2",
-        "tipo": "propuesta-reubicacion",
-        "metros_cuadrados": 1461.8,
-        "descripcion": "Sitio candidato para la reubicación del Corredor Peñaflor, localizado en el cruce de Blvd. Peñaflor y Valle de Tehuacán. Se trata de un predio de superficie regular, lo que facilita su trazo y aprovechamiento. No obstante, su tamaño reducido representa un reto de espacio para albergar a todos los comerciantes, por lo que se requerirá un diseño eficiente y compacto. A esto se suma el desafío de la distribución interna y los accesos, debido a la presencia de flujo vehicular constante en ambas avenidas, lo que obliga a planificar con prioridad la seguridad y el flujo continuo de peatones y automovilistas.",
-        "imagen_url": "https://drive.google.com/file/d/1NEsVvLIjtGD229E510qbcWyi0M7zK2Cd/view?usp=sharing",
-        "problematicas": []
-      }
-    }
-  ]
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "FlmUhN57cvlWFc4ojeZ0SgUFa9JN6FF1",
+            "type": "Feature",
+            "properties": {
+                "nombre": "Predio propuesto de reubicacion 1",
+                "tipo": "propuesta-reubicacion",
+                "descripcion": "Ubicacion en Boulevard Peñaflor, entre Paseo Querétaro y Av. Cantera.",
+                "imagen_url": "https://drive.google.com/file/d/1dua8BgXOW8ypcDKQcqKb_74jMJeUwQhR/view?usp=sharing",
+                "problematicas": []
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -100.4986478,
+                            20.6392722
+                        ],
+                        [
+                            -100.4985342,
+                            20.6390217
+                        ],
+                        [
+                            -100.4966835,
+                            20.6397383
+                        ],
+                        [
+                            -100.4967988,
+                            20.6399441
+                        ],
+                        [
+                            -100.4986478,
+                            20.6392722
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "id": "0wVjHtC77YP90NJvI9ssP9H1tKjVXbhX",
+            "type": "Feature",
+            "properties": {
+                "nombre": "Predio propuesto de reubicacion 2",
+                "tipo": "propuesta-reubicacion",
+                "descripcion": "Ubicacion en Av. de la Cantera casi esquina Cto. Puerta del Sol en la colonia Valle de Santiago 3ra seccion.",
+                "imagen_url": "https://drive.google.com/file/d/1m-wWeX2WYlWAQCsdX36kVcBuhnA0AvTO/view?usp=drive_link",
+                "problematicas": []
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -100.4902359,
+                            20.6391066
+                        ],
+                        [
+                            -100.4903633,
+                            20.6390564
+                        ],
+                        [
+                            -100.4901434,
+                            20.6385908
+                        ],
+                        [
+                            -100.4900294,
+                            20.6386334
+                        ],
+                        [
+                            -100.4902359,
+                            20.6391066
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "id": "H0X3xACXrMqc9VAd5l8UIBJOjofj3zS5",
+            "type": "Feature",
+            "properties": {
+                "nombre": "Predio propuesto de reubicacion 3",
+                "tipo": "propuesta-reubicacion",
+                "descripcion": "Ubicacion en Blvrd. Peña Flor casi esquina Punta Norte en la colonia Valle de Santiago 3ra Sección.",
+                "imagen_url": "https://drive.google.com/file/d/1NEsVvLIjtGD229E510qbcWyi0M7zK2Cd/view?usp=drive_link",
+                "problematicas": []
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -100.4858751,
+                            20.6441848
+                        ],
+                        [
+                            -100.4860655,
+                            20.6441057
+                        ],
+                        [
+                            -100.4859582,
+                            20.6438698
+                        ],
+                        [
+                            -100.4857638,
+                            20.6439564
+                        ],
+                        [
+                            -100.4858751,
+                            20.6441848
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "id": "LQPuF0NNgtuR3SwJzetboKbHXmeJVfHI",
+            "type": "Feature",
+            "properties": {
+                "nombre": "Predio propuesto de reubicacion 4",
+                "tipo": "propuesta-reubicacion",
+                "descripcion": "Dirección Circuito Puertas del Sol esquina Boulevard Peñaflor.",
+                "imagen_url": "https://drive.google.com/file/d/1BHBPfob9lzQjyi05L29XpeHuLaKpaOIE/view?usp=drive_link",
+                "problematicas": []
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -100.4822357,
+                            20.6438009
+                        ],
+                        [
+                            -100.482752,
+                            20.6436063
+                        ],
+                        [
+                            -100.4825334,
+                            20.6431345
+                        ],
+                        [
+                            -100.4820197,
+                            20.6433403
+                        ],
+                        [
+                            -100.4822357,
+                            20.6438009
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "id": "3wLVGCmLrwr6vbKWrVOQqOp6PAAkPuRA",
+            "type": "Feature",
+            "properties": {
+                "nombre": "Predio propuesto de reubicacion 5",
+                "tipo": "propuesta-reubicacion",
+                "descripcion": "Ubicacion en Blivr. Peña Flor esquina Punta Norte en colonia Valle de Santiago 3ra Seccion.",
+                "imagen_url": "https://drive.google.com/file/d/1UbYwVtuvtQpRj3L6HXLlX4YPPdU8iyQP/view?usp=drive_link",
+                "problematicas": []
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -100.4851065,
+                            20.6444624
+                        ],
+                        [
+                            -100.4854337,
+                            20.6443569
+                        ],
+                        [
+                            -100.4850663,
+                            20.6435136
+                        ],
+                        [
+                            -100.4847444,
+                            20.6436065
+                        ],
+                        [
+                            -100.4851065,
+                            20.6444624
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        },
+        {
+            "id": "WGYwM2QMjTNUYUPiEqqCFiHou7xsiO8s",
+            "type": "Feature",
+            "properties": {
+                "nombre": "Predio propuesto de reubicacion 6",
+                "tipo": "propuesta-reubicacion",
+                "descripcion": "Ubicacion en la esquina Av. de la Cantera y Valle Central en colonia Valle de Santiago 3ra Seccion.",
+                "imagen_url": "https://drive.google.com/file/d/1aQ62a7XYsWigW5_4qmeLYkE43ZrbpbWu/view?usp=drive_link",
+                "problematicas": []
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -100.49053386772368,
+                            20.640259029760994
+                        ],
+                        [
+                            -100.49084766772368,
+                            20.640151129760994
+                        ],
+                        [
+                            -100.49054996772368,
+                            20.639506029760994
+                        ],
+                        [
+                            -100.49026026772368,
+                            20.639611429760993
+                        ],
+                        [
+                            -100.49053386772368,
+                            20.640259029760994
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
+        }
+    ]
 }
