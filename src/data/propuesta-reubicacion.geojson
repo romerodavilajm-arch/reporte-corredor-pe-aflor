@@ -228,6 +228,56 @@
                 ],
                 "type": "Polygon"
             }
+        },
+        {
+            "id": "UVLAAu1LEg8Vf8OhVCuMzBdMmV2CT85Z",
+            "type": "Feature",
+            "properties": {
+                "nombre": "Predio propuesto de reubicacion 7",
+                "tipo": "propuesta-reubicacion",
+                "descripcion": "Ubicacion en Cto. Puerta del Sol entre Valle de Santiago y Punta Norte, Está a nombre de Municipio de Querétaro, clave catastral: 140211801142004, con superficie de: 3,627.42 m2..",
+                "imagen_url": "https://drive.google.com/file/d/1MksE8gTp2kGdCdnJZY3tm2_FEWrAEit2/view?usp=drive_link",
+                "problematicas": []
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -100.48177298885267,
+                            20.641224383997837
+                        ],
+                        [
+                            -100.48144915603217,
+                            20.64046446279491
+                        ],
+                        [
+                            -100.48110230971137,
+                            20.640596757042232
+                        ],
+                        [
+                            -100.48133679901707,
+                            20.64119008335139
+                        ],
+                        [
+                            -100.48142569685265,
+                            20.64126257937604
+                        ],
+                        [
+                            -100.4814904658666,
+                            20.64130493956115
+                        ],
+                        [
+                            -100.48154942913888,
+                            20.641299760589845
+                        ],
+                        [
+                            -100.48177298885267,
+                            20.641224383997837
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
         }
     ]
 }
