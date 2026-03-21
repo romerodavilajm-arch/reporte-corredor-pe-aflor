@@ -66,6 +66,14 @@ function CapaPoligonos({ data, onSelect }) {
   const layerActivo = useRef(null)
 
   function onEachFeature(feature, layer) {
+    if (feature.properties?.nombre) {
+      layer.bindTooltip(feature.properties.nombre, {
+        permanent: true,
+        direction: 'center',
+        className: 'etiqueta-poligono',
+      })
+    }
+
     layer.on({
       mouseover(e) {
         e.target.setStyle(estiloHover(feature))
