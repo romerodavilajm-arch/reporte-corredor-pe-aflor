@@ -159,7 +159,8 @@ export default function PanelLateral({ feature, onClose }) {
 
               <SeccionInfo titulo="Organización" contenido={props.organizacion} />
               <SeccionInfo titulo="Ubicación" contenido={props.ubicacion} />
-              <SeccionInfo titulo="Superficie" contenido={props.metros_cuadrados != null ? `${props.metros_cuadrados} m²` : null} />
+              <SeccionInfo titulo="Superficie" contenido={props.metros_cuadrados != null ? `${props.metros_cuadrados.toLocaleString()} m²` : null} />
+              <SeccionInfo titulo="Medidas" contenido={props.dimensiones ?? null} />
               <SeccionInfo titulo="Descripción" contenido={props.descripcion} />
               <SeccionInfo titulo="Horario" contenido={props.horario} />
               <SeccionInfo titulo="Contacto" contenido={props.contacto} />

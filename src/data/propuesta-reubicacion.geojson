@@ -286,6 +286,8 @@
                 "nombre": "Predio propuesto de reubicacion 8",
                 "tipo": "propuesta-reubicacion",
                 "descripcion": "Ubicacion en la esquina Av. de la Cantera y Blvrd. Peña Flor en colonia Valle de Santiago 3ra Seccion.",
+                "metros_cuadrados": 2085,
+                "dimensiones": "15 x 139 metros",
                 "imagen_url": "https://drive.google.com/file/d/1EdkahE1ddIe86hFEKRS6goGhgxsUvpju/view?usp=sharing",
                 "problematicas": []
             },
