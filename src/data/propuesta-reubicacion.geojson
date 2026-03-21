@@ -278,6 +278,44 @@
                 ],
                 "type": "Polygon"
             }
+        },
+        {
+            "id": "2N1UiH85jHSbQuEgQ5UQBSkLpltAMhYH",
+            "type": "Feature",
+            "properties": {
+                "nombre": "Predio propuesto de reubicacion 8",
+                "tipo": "propuesta-reubicacion",
+                "descripcion": "Ubicacion en la esquina Av. de la Cantera y Blvrd. Peña Flor en colonia Valle de Santiago 3ra Seccion.",
+                "imagen_url": "https://drive.google.com/file/d/1EdkahE1ddIe86hFEKRS6goGhgxsUvpju/view?usp=sharing",
+                "problematicas": []
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -100.49077389952903,
+                            20.640378845108856
+                        ],
+                        [
+                            -100.49090873513813,
+                            20.640322549096894
+                        ],
+                        [
+                            -100.4914169616653,
+                            20.641516408332052
+                        ],
+                        [
+                            -100.49129249802617,
+                            20.64158046880712
+                        ],
+                        [
+                            -100.49077389952903,
+                            20.640378845108856
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            }
         }
     ]
 }
