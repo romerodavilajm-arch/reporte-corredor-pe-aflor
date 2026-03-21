@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import { LEYENDA_ORGANIZACIONES, LEYENDA_POLIGONOS } from '../../utils/coloresOrganizaciones'
 
 // Conteo manual de puestos por organización (basado en puestos-via-publica.geojson)
@@ -69,17 +70,51 @@ function LeyendaPuestos() {
 }
 
 export default function PanelLateral({ feature, onClose }) {
+  const [expandido, setExpandido] = useState(false)
   const props = feature?.properties
+
+  // Auto-expandir al seleccionar un polígono
+  useEffect(() => {
+    if (feature) setExpandido(true)
+  }, [feature])
+
+  function handleClose() {
+    setExpandido(false)
+    onClose()
+  }
 
   return (
     <div
-      className="bg-white shadow-xl flex flex-col overflow-hidden flex-shrink-0 z-10 h-full"
-      style={{ width: '20rem' }}
+      className={[
+        'bg-white shadow-xl flex flex-col overflow-hidden z-[1000]',
+        // Móvil: bottom sheet fijo con transición de altura
+        'fixed bottom-0 left-0 right-0 rounded-t-2xl transition-[height] duration-300 ease-in-out',
+        // Desktop: panel lateral estático en el flujo flex
+        'md:static md:rounded-none md:w-80 md:flex-shrink-0 md:h-full md:transition-none',
+        // Altura en móvil según estado
+        expandido ? 'h-[70vh]' : 'h-16',
+      ].join(' ')}
     >
+      {/* ── Asa táctil — solo móvil ── */}
+      <div
+        className="md:hidden flex-shrink-0 flex justify-center items-center py-2 cursor-pointer"
+        onClick={() => setExpandido(v => !v)}
+      >
+        <div className="w-10 h-1 bg-gray-300 rounded-full" />
+      </div>
+
       {/* ── Encabezado ── */}
-      <div className="bg-blue-700 text-white px-4 py-3 flex-shrink-0">
-        <h1 className="text-base font-bold leading-tight">Comercio Zona 3 - Valle de Santiago - Ciudad del Sol</h1>
-        <p className="text-xs text-blue-200 mt-0.5">Mapa interactivo de comercio en vía pública</p>
+      <div
+        className="bg-blue-700 text-white px-4 py-3 flex-shrink-0 cursor-pointer md:cursor-default"
+        onClick={() => setExpandido(v => !v)}
+      >
+        <div className="flex items-center justify-between gap-2">
+          <h1 className="text-base font-bold leading-tight">Comercio Zona 3 - Valle de Santiago - Ciudad del Sol</h1>
+          <span className="md:hidden text-blue-200 text-base flex-shrink-0">
+            {expandido ? '▾' : '▴'}
+          </span>
+        </div>
+        <p className="text-xs text-blue-200 mt-0.5 hidden md:block">Mapa interactivo de comercio en vía pública</p>
       </div>
 
       {/* ── Contenido scrollable ── */}
@@ -93,7 +128,7 @@ export default function PanelLateral({ feature, onClose }) {
               <div className="flex items-start justify-between mb-2">
                 <h2 className="text-sm font-bold text-gray-800 leading-tight pr-2">{props.nombre}</h2>
                 <button
-                  onClick={onClose}
+                  onClick={handleClose}
                   title="Cerrar"
                   className="text-gray-400 hover:text-gray-600 text-xl leading-none flex-shrink-0 mt-0.5 cursor-pointer"
                 >
