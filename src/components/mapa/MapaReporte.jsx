@@ -106,7 +106,7 @@ export default function MapaReporte({ onFeatureSelect }) {
   return (
     <MapContainer
       center={center}
-      zoom={15}
+      zoom={17}
       style={{ height: '100%', width: '100%' }}
       // Desplazar el zoom con scroll sobre el mapa sin Ctrl
       scrollWheelZoom={true}
