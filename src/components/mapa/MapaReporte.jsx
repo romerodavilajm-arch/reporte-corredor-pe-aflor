@@ -101,7 +101,7 @@ function CapaPoligonos({ data, onSelect }) {
 
 export default function MapaReporte({ onFeatureSelect }) {
   // Centro del Corredor Peñaflor
-  const center = [20.642577, -100.489824]
+  const center = [20.638639, -100.490180]
 
   return (
     <MapContainer
