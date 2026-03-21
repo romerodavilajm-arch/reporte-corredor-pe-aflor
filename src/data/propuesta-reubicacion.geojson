@@ -2,37 +2,39 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "id": "FlmUhN57cvlWFc4ojeZ0SgUFa9JN6FF1",
+            "id": "2N1UiH85jHSbQuEgQ5UQBSkLpltAMhYH",
             "type": "Feature",
             "properties": {
                 "nombre": "Predio propuesto de reubicacion 1",
                 "tipo": "propuesta-reubicacion",
-                "descripcion": "Ubicacion en Boulevard Peñaflor, entre Paseo Querétaro y Av. Cantera.",
-                "imagen_url": "https://drive.google.com/file/d/1dua8BgXOW8ypcDKQcqKb_74jMJeUwQhR/view?usp=sharing",
+                "descripcion": "Ubicacion en la esquina Av. de la Cantera y Blvrd. Peña Flor en colonia Valle de Santiago 3ra Seccion.",
+                "metros_cuadrados": 2085,
+                "dimensiones": "15 x 139 metros",
+                "imagen_url": "https://drive.google.com/file/d/1EdkahE1ddIe86hFEKRS6goGhgxsUvpju/view?usp=sharing",
                 "problematicas": []
             },
             "geometry": {
                 "coordinates": [
                     [
                         [
-                            -100.4986478,
-                            20.6392722
+                            -100.49077389952903,
+                            20.640378845108856
                         ],
                         [
-                            -100.4985342,
-                            20.6390217
+                            -100.49090873513813,
+                            20.640322549096894
                         ],
                         [
-                            -100.4966835,
-                            20.6397383
+                            -100.4914169616653,
+                            20.641516408332052
                         ],
                         [
-                            -100.4967988,
-                            20.6399441
+                            -100.49129249802617,
+                            20.64158046880712
                         ],
                         [
-                            -100.4986478,
-                            20.6392722
+                            -100.49077389952903,
+                            20.640378845108856
                         ]
                     ]
                 ],
@@ -46,6 +48,8 @@
                 "nombre": "Predio propuesto de reubicacion 2",
                 "tipo": "propuesta-reubicacion",
                 "descripcion": "Ubicacion en Av. de la Cantera casi esquina Cto. Puerta del Sol en la colonia Valle de Santiago 3ra seccion.",
+                "metros_cuadrados": 1248,
+                "dimensiones": "16 x 78 metros",
                 "imagen_url": "https://drive.google.com/file/d/1m-wWeX2WYlWAQCsdX36kVcBuhnA0AvTO/view?usp=drive_link",
                 "problematicas": []
             },
@@ -78,50 +82,14 @@
             }
         },
         {
-            "id": "H0X3xACXrMqc9VAd5l8UIBJOjofj3zS5",
+            "id": "LQPuF0NNgtuR3SwJzetboKbHXmeJVfHI",
             "type": "Feature",
             "properties": {
                 "nombre": "Predio propuesto de reubicacion 3",
                 "tipo": "propuesta-reubicacion",
-                "descripcion": "Ubicacion en Blvrd. Peña Flor casi esquina Punta Norte en la colonia Valle de Santiago 3ra Sección.",
-                "imagen_url": "https://drive.google.com/file/d/1NEsVvLIjtGD229E510qbcWyi0M7zK2Cd/view?usp=drive_link",
-                "problematicas": []
-            },
-            "geometry": {
-                "coordinates": [
-                    [
-                        [
-                            -100.4858751,
-                            20.6441848
-                        ],
-                        [
-                            -100.4860655,
-                            20.6441057
-                        ],
-                        [
-                            -100.4859582,
-                            20.6438698
-                        ],
-                        [
-                            -100.4857638,
-                            20.6439564
-                        ],
-                        [
-                            -100.4858751,
-                            20.6441848
-                        ]
-                    ]
-                ],
-                "type": "Polygon"
-            }
-        },
-        {
-            "id": "LQPuF0NNgtuR3SwJzetboKbHXmeJVfHI",
-            "type": "Feature",
-            "properties": {
-                "nombre": "Predio propuesto de reubicacion 4",
-                "tipo": "propuesta-reubicacion",
                 "descripcion": "Dirección Circuito Puertas del Sol esquina Boulevard Peñaflor.",
+                "metros_cuadrados": 3420,
+                "dimensiones": "57 x 60 metros",
                 "imagen_url": "https://drive.google.com/file/d/1BHBPfob9lzQjyi05L29XpeHuLaKpaOIE/view?usp=drive_link",
                 "problematicas": []
             },
@@ -157,9 +125,11 @@
             "id": "3wLVGCmLrwr6vbKWrVOQqOp6PAAkPuRA",
             "type": "Feature",
             "properties": {
-                "nombre": "Predio propuesto de reubicacion 5",
+                "nombre": "Predio propuesto de reubicacion 4",
                 "tipo": "propuesta-reubicacion",
                 "descripcion": "Ubicacion en Blivr. Peña Flor esquina Punta Norte en colonia Valle de Santiago 3ra Seccion.",
+                "metros_cuadrados": 1037,
+                "dimensiones": "100 x 37 metros",
                 "imagen_url": "https://drive.google.com/file/d/1UbYwVtuvtQpRj3L6HXLlX4YPPdU8iyQP/view?usp=drive_link",
                 "problematicas": []
             },
@@ -185,134 +155,6 @@
                         [
                             -100.4851065,
                             20.6444624
-                        ]
-                    ]
-                ],
-                "type": "Polygon"
-            }
-        },
-        {
-            "id": "WGYwM2QMjTNUYUPiEqqCFiHou7xsiO8s",
-            "type": "Feature",
-            "properties": {
-                "nombre": "Predio propuesto de reubicacion 6",
-                "tipo": "propuesta-reubicacion",
-                "descripcion": "Ubicacion en la esquina Av. de la Cantera y Valle Central en colonia Valle de Santiago 3ra Seccion.",
-                "imagen_url": "https://drive.google.com/file/d/1aQ62a7XYsWigW5_4qmeLYkE43ZrbpbWu/view?usp=drive_link",
-                "problematicas": []
-            },
-            "geometry": {
-                "coordinates": [
-                    [
-                        [
-                            -100.49053386772368,
-                            20.640259029760994
-                        ],
-                        [
-                            -100.49084766772368,
-                            20.640151129760994
-                        ],
-                        [
-                            -100.49054996772368,
-                            20.639506029760994
-                        ],
-                        [
-                            -100.49026026772368,
-                            20.639611429760993
-                        ],
-                        [
-                            -100.49053386772368,
-                            20.640259029760994
-                        ]
-                    ]
-                ],
-                "type": "Polygon"
-            }
-        },
-        {
-            "id": "UVLAAu1LEg8Vf8OhVCuMzBdMmV2CT85Z",
-            "type": "Feature",
-            "properties": {
-                "nombre": "Predio propuesto de reubicacion 7",
-                "tipo": "propuesta-reubicacion",
-                "descripcion": "Ubicacion en Cto. Puerta del Sol entre Valle de Santiago y Punta Norte, Está a nombre de Municipio de Querétaro, clave catastral: 140211801142004, con superficie de: 3,627.42 m2..",
-                "imagen_url": "https://drive.google.com/file/d/1MksE8gTp2kGdCdnJZY3tm2_FEWrAEit2/view?usp=drive_link",
-                "problematicas": []
-            },
-            "geometry": {
-                "coordinates": [
-                    [
-                        [
-                            -100.48177298885267,
-                            20.641224383997837
-                        ],
-                        [
-                            -100.48144915603217,
-                            20.64046446279491
-                        ],
-                        [
-                            -100.48110230971137,
-                            20.640596757042232
-                        ],
-                        [
-                            -100.48133679901707,
-                            20.64119008335139
-                        ],
-                        [
-                            -100.48142569685265,
-                            20.64126257937604
-                        ],
-                        [
-                            -100.4814904658666,
-                            20.64130493956115
-                        ],
-                        [
-                            -100.48154942913888,
-                            20.641299760589845
-                        ],
-                        [
-                            -100.48177298885267,
-                            20.641224383997837
-                        ]
-                    ]
-                ],
-                "type": "Polygon"
-            }
-        },
-        {
-            "id": "2N1UiH85jHSbQuEgQ5UQBSkLpltAMhYH",
-            "type": "Feature",
-            "properties": {
-                "nombre": "Predio propuesto de reubicacion 8",
-                "tipo": "propuesta-reubicacion",
-                "descripcion": "Ubicacion en la esquina Av. de la Cantera y Blvrd. Peña Flor en colonia Valle de Santiago 3ra Seccion.",
-                "metros_cuadrados": 2085,
-                "dimensiones": "15 x 139 metros",
-                "imagen_url": "https://drive.google.com/file/d/1EdkahE1ddIe86hFEKRS6goGhgxsUvpju/view?usp=sharing",
-                "problematicas": []
-            },
-            "geometry": {
-                "coordinates": [
-                    [
-                        [
-                            -100.49077389952903,
-                            20.640378845108856
-                        ],
-                        [
-                            -100.49090873513813,
-                            20.640322549096894
-                        ],
-                        [
-                            -100.4914169616653,
-                            20.641516408332052
-                        ],
-                        [
-                            -100.49129249802617,
-                            20.64158046880712
-                        ],
-                        [
-                            -100.49077389952903,
-                            20.640378845108856
                         ]
                     ]
                 ],
